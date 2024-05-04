@@ -32,6 +32,9 @@ button.addEventListener("click", () => {
   } else {
     // Display an error message or handle invalid input
     alert("Please enter valid names without numbers or special characters.");
+    name1.value = "";
+    name2.value = "";
+
   }
 });
 
