@@ -37,10 +37,12 @@ h2{
     border-radius: 35px;
     text-align: center;
     box-shadow:  0 15px 30px 0 rgba(0, 0, 0, 0.15);
-    background-color: ;
+    background-color:#F8FFD2;
 }
 .name:hover{
     border:2px solid rgba(0, 0, 0, 0.05);
+    opacity: 1;
+
 
 }
 .box{
