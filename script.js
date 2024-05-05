@@ -12,8 +12,11 @@ let msg3 = document.querySelector(".msg3");
 
 // Function to check if a string contains only letters
 function check(str) {
-  return /^[a-zA-Z]+$/.test(str);
-}
+  new_str = String(str);
+    if("a" <= new_str <= "z" || "A" <= new_str <= "Z" ){
+    return new_str;
+  }
+ }
 
 function loveCalc() {
   let lovePercentages = Math.floor(Math.random() * 99 + 1);
