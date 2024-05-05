@@ -37,6 +37,7 @@ h2{
     border-radius: 35px;
     text-align: center;
     box-shadow:  0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    background-color: ;
 }
 .name:hover{
     border:2px solid rgba(0, 0, 0, 0.05);
@@ -87,14 +88,13 @@ h2{
 .fix{
     /* background: linear-gradient( 90deg, #c7081f 0%, #ec5700 100%); */
     background: linear-gradient( 90deg, #E72929 0%, #FFE4CF 100%);
-
-
-   
     box-shadow:  0 15px 30px 0 rgba(0, 0, 0, 0.19);
     font-size: 1rem;
     flex-shrink: 0;
     border: none;
-  
+}
+.fix:hover{
+    opacity: 1;
 }
 
 @media(max-width:559px){

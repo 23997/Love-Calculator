@@ -11,7 +11,7 @@ let msg2 = document.querySelector(".msg2");
 let msg3 = document.querySelector(".msg3");
 
 // Function to check if a string contains only letters
-function containsOnlyLetters(str) {
+function check(str) {
   return /^[a-zA-Z]+$/.test(str);
 }
 
@@ -25,10 +25,12 @@ button.addEventListener("click", () => {
   if (
     name1.value.trim() !== "" &&
     name2.value.trim() !== "" &&
-    containsOnlyLetters(name1.value) &&
-    containsOnlyLetters(name2.value)
+    check(name1.value) &&
+    check(name2.value)
   ) {
     addText();
+    name1.value = "";
+    name2.value = "";
   } else {
     // Display an error message or handle invalid input
     alert("Please enter valid names without numbers or special characters.");
